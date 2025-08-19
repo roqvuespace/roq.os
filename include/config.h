@@ -41,3 +41,19 @@
 #define CONFIG_CPU_CLOCK_HZ       72000000  // Example: 72 MHz (STM32F103)
 
 #endif // CONFIG_H
+
+
+/*
+
+EXAMPLE:
+
+#include "config.h"
+
+#if CONFIG_USE_PREEMPTION
+    // use preemptive scheduler logic
+#else
+    // use cooperative scheduler
+#endif
+
+
+*/
